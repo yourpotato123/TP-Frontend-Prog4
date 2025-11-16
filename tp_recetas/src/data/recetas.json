@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pasta Carbonara",
+    "descripcion": "Receta clásica italiana de pasta con salsa cremosa de huevo y panceta. Una delicia que se prepara en minutos.",
+    "imagen": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400",
+    "tiempoPreparacion": "30 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "ingredientes": [
+      { "cantidad": "400", "unidad": "g", "nombre": "Spaghetti" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Panceta o tocino" },
+      { "cantidad": "4", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Queso parmesano rallado" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Pimienta negra" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal al gusto" }
+    ],
+    "pasos": [
+      "Cocinar la pasta en agua hirviendo con sal hasta que esté al dente (8-10 minutos)",
+      "Mientras tanto, cortar la panceta en cubos pequeños y dorarla en una sartén sin aceite",
+      "Batir los huevos con el queso parmesano rallado y pimienta negra",
+      "Escurrir la pasta reservando un poco del agua de cocción (1 taza aproximadamente)",
+      "Mezclar la pasta caliente con la panceta fuera del fuego",
+      "Agregar la mezcla de huevo y queso, mezclando rápidamente para que los huevos no se cocinen",
+      "Si es necesario, agregar un poco del agua de cocción para crear una salsa cremosa",
+      "Servir inmediatamente con más queso parmesano y pimienta al gusto"
+    ],
+    "categoria": "Platos Principales"
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada César",
+    "descripcion": "Ensalada fresca con lechuga romana, crutones caseros y aderezo césar. Perfecta como entrada o plato ligero.",
+    "imagen": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+    "tiempoPreparacion": "20 minutos",
+    "dificultad": "Fácil",
+    "porciones": 2,
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Lechuga romana grande" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Pechuga de pollo" },
+      { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano en lascas" },
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Crutones" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Aderezo césar" },
+      { "cantidad": "1", "unidad": "cucharada", "nombre": "Aceite de oliva" }
+    ],
+    "pasos": [
+      "Lavar y secar bien la lechuga romana",
+      "Cortar la lechuga en trozos medianos",
+      "Sazonar la pechuga de pollo con sal y pimienta",
+      "Cocinar la pechuga de pollo a la plancha hasta que esté dorada (5-7 minutos por lado)",
+      "Dejar reposar el pollo 5 minutos y cortarlo en tiras",
+      "En un bowl grande, mezclar la lechuga con el aderezo césar",
+      "Agregar el pollo, crutones y queso parmesano",
+      "Mezclar bien y servir inmediatamente"
+    ],
+    "categoria": "Ensaladas"
+  },
+  {
+    "id": 3,
+    "titulo": "Pizza Margarita",
+    "descripcion": "La pizza italiana más clásica con salsa de tomate, mozzarella fresca y albahaca. Simple pero deliciosa.",
+    "imagen": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+    "tiempoPreparacion": "45 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Harina 0000" },
+      { "cantidad": "300", "unidad": "ml", "nombre": "Agua tibia" },
+      { "cantidad": "7", "unidad": "g", "nombre": "Levadura seca" },
+      { "cantidad": "1", "unidad": "cucharadita", "nombre": "Sal" },
+      { "cantidad": "2", "unidad": "cucharadas", "nombre": "Aceite de oliva" },
+      { "cantidad": "400", "unidad": "g", "nombre": "Salsa de tomate para pizza" },
+      { "cantidad": "300", "unidad": "g", "nombre": "Mozzarella fresca" },
+      { "cantidad": "10", "unidad": "hojas", "nombre": "Albahaca fresca" }
+    ],
+    "pasos": [
+      "Mezclar la levadura con el agua tibia y dejar reposar 5 minutos",
+      "En un bowl grande, mezclar la harina con la sal",
+      "Agregar el agua con levadura y el aceite, y amasar hasta obtener una masa suave",
+      "Dejar leudar la masa cubierta en un lugar cálido por 30 minutos",
+      "Precalentar el horno a 250°C",
+      "Estirar la masa en forma circular sobre una superficie enharinada",
+      "Colocar la masa en una bandeja para pizza, agregar la salsa de tomate",
+      "Distribuir la mozzarella cortada en rodajas sobre la salsa",
+      "Hornear por 12-15 minutos hasta que la masa esté dorada",
+      "Agregar hojas de albahaca fresca al sacar del horno y servir"
+    ],
+    "categoria": "Platos Principales"
+  },
+  {
+    "id": 4,
+    "titulo": "Brownie de Chocolate",
+    "descripcion": "Brownie húmedo y chocolatoso con el punto perfecto. Un postre irresistible para los amantes del chocolate.",
+    "imagen": "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=400",
+    "tiempoPreparacion": "40 minutos",
+    "dificultad": "Fácil",
+    "porciones": 8,
+    "ingredientes": [
+      { "cantidad": "200", "unidad": "g", "nombre": "Chocolate semi-amargo" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Mantequilla" },
+      { "cantidad": "3", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Azúcar" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "30", "unidad": "g", "nombre": "Cacao en polvo" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Nueces picadas (opcional)" }
+    ],
+    "pasos": [
+      "Precalentar el horno a 180°C y engrasar un molde cuadrado de 20x20 cm",
+      "Derretir el chocolate con la mantequilla a baño maría o en el microondas",
+      "Batir los huevos con el azúcar hasta que la mezcla esté espumosa",
+      "Agregar el chocolate derretido y mezclar bien",
+      "Tamizar la harina, el cacao y la sal, e incorporar a la mezcla anterior",
+      "Si se desea, agregar las nueces picadas",
+      "Verter la mezcla en el molde preparado",
+      "Hornear por 25-30 minutos. El centro debe quedar ligeramente húmedo",
+      "Dejar enfriar completamente antes de cortar en cuadrados",
+      "Servir con helado de vainilla o crema batida si se desea"
+    ],
+    "categoria": "Postres"
+  },
+  {
+    "id": 5,
+    "titulo": "Tacos al Pastor",
+    "descripcion": "Tacos mexicanos con carne marinada en achiote, piña y especias. Una explosión de sabores tradicionales.",
+    "imagen": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400",
+    "tiempoPreparacion": "60 minutos",
+    "dificultad": "Media",
+    "porciones": 6,
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "kg", "nombre": "Carne de cerdo (lomo o pierna)" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Pasta de achiote" },
+      { "cantidad": "4", "unidad": "dientes", "nombre": "Ajo" },
+      { "cantidad": "1", "unidad": "taza", "nombre": "Jugo de naranja" },
+      { "cantidad": "1/4", "unidad": "taza", "nombre": "Vinagre blanco" },
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Piña en cubos" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Cebolla" },
+      { "cantidad": "1", "unidad": "manojo", "nombre": "Cilantro fresco" },
+      { "cantidad": "12", "unidad": "unidades", "nombre": "Tortillas de maíz" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Limones" }
+    ],
+    "pasos": [
+      "Cortar la carne en filetes delgados",
+      "Licuar el achiote, ajo, jugo de naranja, vinagre y sal para hacer la marinada",
+      "Marinar la carne con esta mezcla por al menos 2 horas (o toda la noche)",
+      "Calentar una sartén o comal a fuego medio-alto",
+      "Cocinar los filetes de carne hasta que estén dorados por ambos lados",
+      "Cortar la carne cocida en trozos pequeños",
+      "En la misma sartén, dorar los cubos de piña",
+      "Calentar las tortillas",
+      "Picar finamente la cebolla y el cilantro",
+      "Armar los tacos con carne, piña, cebolla, cilantro y jugo de limón al gusto"
+    ],
+    "categoria": "Platos Principales"
+  },
+  {
+    "id": 6,
+    "titulo": "Sushi Rolls California",
+    "descripcion": "Rolls de sushi con cangrejo, aguacate y pepino. Una versión occidentalizada perfecta para principiantes.",
+    "imagen": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400",
+    "tiempoPreparacion": "50 minutos",
+    "dificultad": "Difícil",
+    "porciones": 4,
+    "ingredientes": [
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Arroz para sushi" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Vinagre de arroz" },
+      { "cantidad": "1", "unidad": "cucharada", "nombre": "Azúcar" },
+      { "cantidad": "1", "unidad": "cucharadita", "nombre": "Sal" },
+      { "cantidad": "4", "unidad": "hojas", "nombre": "Alga nori" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Palitos de cangrejo (kanikama)" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Aguacate maduro" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Pepino" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Mayonesa japonesa" },
+      { "cantidad": "2", "unidad": "cucharadas", "nombre": "Semillas de sésamo" }
+    ],
+    "pasos": [
+      "Cocinar el arroz según las instrucciones del paquete y dejar enfriar",
+      "Mezclar el vinagre, azúcar y sal, y agregar al arroz tibio",
+      "Dejar reposar el arroz sazonado hasta que esté a temperatura ambiente",
+      "Cortar el aguacate, pepino y cangrejo en tiras largas y delgadas",
+      "Colocar una hoja de nori sobre una esterilla de bambú",
+      "Extender una capa delgada de arroz sobre el nori, dejando 2 cm libre en un extremo",
+      "Colocar las tiras de aguacate, pepino y cangrejo en el centro",
+      "Agregar un poco de mayonesa",
+      "Enrollar firmemente usando la esterilla, humedeciendo el borde para sellar",
+      "Espolvorear semillas de sésamo sobre el roll",
+      "Cortar cada roll en 8 piezas con un cuchillo afilado humedecido",
+      "Servir con salsa de soja, wasabi y jengibre encurtido"
+    ],
+    "categoria": "Platos Principales"
+  },
+  {
+    "id": 7,
+    "titulo": "Tiramisú Clásico",
+    "descripcion": "El postre italiano por excelencia con capas de bizcochos bañados en café, crema de mascarpone y cacao.",
+    "imagen": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400",
+    "tiempoPreparacion": "30 minutos + 4 horas refrigeración",
+    "dificultad": "Media",
+    "porciones": 8,
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Queso mascarpone" },
+      { "cantidad": "6", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Azúcar" },
+      { "cantidad": "300", "unidad": "ml", "nombre": "Café expreso fuerte, frío" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Licor de café (opcional)" },
+      { "cantidad": "400", "unidad": "g", "nombre": "Bizcochos de soletilla (vainillas)" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Cacao en polvo sin azúcar" }
+    ],
+    "pasos": [
+      "Separar las yemas de las claras de huevo",
+      "Batir las yemas con el azúcar hasta que estén cremosas y de color claro",
+      "Agregar el mascarpone a las yemas y mezclar suavemente hasta integrar",
+      "Batir las claras a punto de nieve firme",
+      "Incorporar las claras a la mezcla de mascarpone con movimientos envolventes",
+      "Mezclar el café frío con el licor si se usa",
+      "Mojar rápidamente los bizcochos en el café (no empaparlos demasiado)",
+      "Colocar una capa de bizcochos en el fondo de una fuente",
+      "Cubrir con la mitad de la crema de mascarpone",
+      "Repetir con otra capa de bizcochos y la crema restante",
+      "Refrigerar por al menos 4 horas o toda la noche",
+      "Antes de servir, espolvorear generosamente con cacao en polvo"
+    ],
+    "categoria": "Postres"
+  },
+  {
+    "id": 8,
+    "titulo": "Pad Thai",
+    "descripcion": "El plato más famoso de Tailandia: fideos de arroz salteados con camarones, tofu, vegetales y salsa agridulce.",
+    "imagen": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400",
+    "tiempoPreparacion": "35 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "ingredientes": [
+      { "cantidad": "250", "unidad": "g", "nombre": "Fideos de arroz anchos" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Camarones pelados" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Tofu firme" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Salsa de pescado" },
+      { "cantidad": "2", "unidad": "cucharadas", "nombre": "Salsa de tamarindo" },
+      { "cantidad": "2", "unidad": "cucharadas", "nombre": "Azúcar morena" },
+      { "cantidad": "3", "unidad": "dientes", "nombre": "Ajo picado" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Brotes de soja" },
+      { "cantidad": "3", "unidad": "unidades", "nombre": "Cebollines" },
+      { "cantidad": "1/2", "unidad": "taza", "nombre": "Maní tostado picado" },
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Limas" },
+      { "cantidad": "1", "unidad": "cucharadita", "nombre": "Hojuelas de chile (opcional)" }
+    ],
+    "pasos": [
+      "Remojar los fideos de arroz en agua caliente por 20 minutos, luego escurrir",
+      "Mezclar la salsa de pescado, salsa de tamarindo y azúcar para hacer la salsa",
+      "Cortar el tofu en cubos y dorar en un wok con aceite a fuego alto",
+      "Retirar el tofu y en el mismo wok saltear el ajo por 30 segundos",
+      "Agregar los camarones y cocinar hasta que estén rosados",
+      "Hacer un espacio en el wok y batir los huevos, luego mezclar con el resto",
+      "Agregar los fideos escurridos y la salsa preparada",
+      "Saltear todo junto por 2-3 minutos a fuego alto",
+      "Agregar los brotes de soja, cebollines cortados y tofu",
+      "Mezclar bien y servir inmediatamente",
+      "Decorar con maní picado, gajos de lima y hojuelas de chile"
+    ],
+    "categoria": "Platos Principales"
+  }
+]
