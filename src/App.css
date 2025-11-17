@@ -1,3 +1,10 @@
+:root {
+  --navbar-bg: #b91c1c;   /* rojo claro */
+}
+
+body.dark {
+  --navbar-bg: #7f1d1d;   /* rojo vino */
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -79,10 +86,6 @@ body.dark button {
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.05);
 }
 
-/* AppBar de MUI */
-body.dark .MuiAppBar-root {
-  background-color: #333 !important;
-}
 
 /* Botones del nav */
 body.dark .MuiButton-root {
@@ -123,3 +126,8 @@ body.dark .MuiOutlinedInput-notchedOutline {
 body, #root, .card, .MuiPaper-root, .MuiCard-root {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+body.dark .MuiAppBar-root {
+  background-color: var(--navbar-bg) !important;
+}
+

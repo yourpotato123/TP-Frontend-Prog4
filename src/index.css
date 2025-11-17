@@ -4,7 +4,6 @@
   --card-bg: #FFFFFF;       /* fondo de cada card */
   --text-primary: #222222;
   --text-secondary: #555555;
-  --appbar-bg: #7E57C2;     /* lila pastel AppBar */
   --button-bg: #AB47BC;     /* botones */
   --button-bg-hover: #9C27B0;
 }
@@ -15,7 +14,6 @@
   --card-bg: #242029;
   --text-primary: #EDE7F6;
   --text-secondary: #BDB4D3;
-  --appbar-bg: #1F1B24;
   --button-bg: #BB86FC;
   --button-bg-hover: #985EFF;
 }

@@ -226,9 +226,18 @@ export default function AgregarReceta({ open, onClose, onAgregarReceta }) {
           {/* Ingredientes */}
           <Grid item xs={12}>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-              <Chip label="Ingredientes *" color="primary" />
-              <Button startIcon={<Add />} onClick={agregarIngrediente} sx={{ ml: 2 }}>
-                Agregar Ingrediente
+              <Chip
+                label="Ingredientes *"
+                color="default"
+                sx={{ backgroundColor: "#E0E0E0" }}
+              />
+              <Button startIcon={<Add />} onClick={agregarIngrediente} 
+                sx={{ ml: 2,
+                  backgroundColor: "#43A047",
+                  color: "white",
+                  "&:hover": { backgroundColor: "#388E3C" }
+                }}>
+                  Agregar Ingrediente
               </Button>
             </Box>
             {errores.ingredientes && (
@@ -333,8 +342,17 @@ export default function AgregarReceta({ open, onClose, onAgregarReceta }) {
           {/* Pasos */}
           <Grid item xs={12}>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-              <Chip label="Pasos de Preparación *" color="primary" />
-              <Button startIcon={<Add />} onClick={agregarPaso} sx={{ ml: 2 }}>
+              <Chip
+                label="Pasos de Preparación *"
+                color="default"
+                sx={{ backgroundColor: "#E0E0E0" }}
+              />
+              <Button startIcon={<Add />} onClick={agregarPaso}  sx={{
+              ml: 2,
+              backgroundColor: "#43A047",
+              color: "white",
+              "&:hover": { backgroundColor: "#388E3C" }
+              }}>
                 Agregar Paso
               </Button>
             </Box>
@@ -367,8 +385,25 @@ export default function AgregarReceta({ open, onClose, onAgregarReceta }) {
         </Grid>
       </DialogContent>
       <DialogActions>
-        <Button onClick={onClose}>Cancelar</Button>
-        <Button onClick={handleAgregar} variant="contained" color="primary">
+        <Button
+        onClick={onClose}
+        sx={{
+          backgroundColor: "#E57373",
+          color: "white",
+          "&:hover": { backgroundColor: "#D32F2F" }
+        }}
+        >
+          Cancelar
+        </Button>
+        <Button
+          onClick={handleAgregar}
+          variant="contained"
+          sx={{
+            backgroundColor: "#43A047",
+            color: "white",
+            "&:hover": { backgroundColor: "#388E3C" }
+          }}
+        >
           Agregar Receta
         </Button>
       </DialogActions>

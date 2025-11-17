@@ -7,7 +7,13 @@ export default function Navbar({ onAgregarReceta, onToggleDarkMode, isDarkMode }
   const navigate = useNavigate();
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#1E88E5" }}>
+    <AppBar 
+      position="static"
+      sx={{ 
+        backgroundColor: "var(--navbar-bg)",    // ← ⭐ se adapta al modo!
+        transition: "background-color 0.3s ease"
+      }}
+    >
       <Toolbar>
         <Typography 
           variant="h6" 

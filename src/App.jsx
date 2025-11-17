@@ -9,17 +9,16 @@ import './App.css';
 
 function AppContent() {
   const [mostrarForm, setMostrarForm] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const { agregarReceta } = useRecetas();
 
-  // ✅ nombre unificado
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
+ 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-
-    // ❗ tu CSS usa "dark", no "dark-mode"
-    document.body.classList.toggle("dark", !isDarkMode);
-  };
+  setIsDarkMode(prev => {
+    document.body.classList.toggle("dark", !prev); // aplica la clase "dark" correctamente
+    return !prev;
+  });
+};
 
   const handleAgregarReceta = (nuevaReceta) => {
     agregarReceta(nuevaReceta);
