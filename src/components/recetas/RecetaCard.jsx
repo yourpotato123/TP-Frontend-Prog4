@@ -46,13 +46,17 @@ export default function RecetaCard({ receta }) {
       </CardContent>
 
       <Button  
-        variant="contained" 
+        variant="contained"
         startIcon={<Visibility />}
-        sx={{ m: 2 }}
         onClick={handleVerDetalle}
+        sx={{
+        backgroundColor: "#43A047",
+        ":hover": { backgroundColor: "#2E7D32" },
+        m: 2   // ← agregado aquí
+        }}
       >
-        Ver más
-      </Button>
+  Ver más
+</Button>
     </Card>
   );
 }

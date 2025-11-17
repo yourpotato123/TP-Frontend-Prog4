@@ -10,7 +10,9 @@ export default function RecetaList({ recetas }) {
       display: "grid",
       gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
       gap: "1rem",
-      padding: "1rem"
+      padding: "1rem",
+      backgroundColor: "#ECE3FA",
+      borderRadius: "10px"        
     }}>
       {recetas.map((r) => (
         <RecetaCard key={r.id} receta={r} />

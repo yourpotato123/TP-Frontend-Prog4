@@ -11,13 +11,28 @@ function AppContent() {
   const [mostrarForm, setMostrarForm] = useState(false);
   const { agregarReceta } = useRecetas();
 
+  // ✅ nombre unificado
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+
+    // ❗ tu CSS usa "dark", no "dark-mode"
+    document.body.classList.toggle("dark", !isDarkMode);
+  };
+
   const handleAgregarReceta = (nuevaReceta) => {
     agregarReceta(nuevaReceta);
   };
 
   return (
-    <>
-      <Navbar onAgregarReceta={() => setMostrarForm(true)} />
+    <div className="min-h-screen bg-white text-black dark:bg-[#242424] dark:text-white transition-colors duration-300">
+      <Navbar 
+        onAgregarReceta={() => setMostrarForm(true)}
+        onToggleDarkMode={toggleDarkMode}
+        isDarkMode={isDarkMode}
+      />
+
       <Routes>
         <Route path="/" element={<RecetasListPage />} />
         <Route path="/recetas/:id" element={<RecetaDetallePage />} />
@@ -28,7 +43,7 @@ function AppContent() {
         onClose={() => setMostrarForm(false)}
         onAgregarReceta={handleAgregarReceta}
       />
-    </>
+    </div>
   );
 }
 
